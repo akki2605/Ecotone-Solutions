@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700");
 :root {
   --green:#f5bf23;
   --green: #46b542;
@@ -431,6 +432,30 @@ li{
   font-size: 1.4rem;
   color: var(--light-color);
   line-height: 2;
+}
+
+.nxt-btn{
+  text-decoration: none;
+	display: inline-block;
+	padding: 0;
+	font: 13px 'Roboto Condensed';
+  font-weight: bold;
+	margin: 0;
+	border-radius: 0;
+	color: #dc4637;
+	letter-spacing: 4px;
+	background: none;
+	text-transform: uppercase;
+	float: none;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.nxt-btn:hover {
+	color: #424242;
+	background: none;
+	text-decoration: none;
 }
 
 .projects {
