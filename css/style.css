@@ -38,6 +38,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
   background: var(--green);
 }
 
@@ -313,6 +314,23 @@ li{
   font-size: 1.6rem;
   color: var(--light-color);
   line-height: 1.6;
+  
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p::-webkit-scrollbar {
+  width: 1rem;
+}
+
+p::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+p::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--light-color);
 }
 
 
@@ -845,6 +863,10 @@ li{
   }
   .home .slide .content h3 {
     font-size: 3rem;
+  }
+
+  .mission__content-box {
+    flex-direction: column;
   }
 }
 
