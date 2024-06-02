@@ -315,14 +315,15 @@ li{
   font-size: 1.6rem;
   color: var(--light-color);
   line-height: 1.6;
-  
+  padding-right: 15px;
+  text-align:justify;
   height: 200px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 p::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.5rem;
 }
 
 p::-webkit-scrollbar-track {
@@ -588,6 +589,31 @@ p::-webkit-scrollbar-thumb {
   margin-bottom: 1.5rem;
 }
 
+/* Our Associations  */
+.our-associations {
+  padding: 5rem 10%;
+}
+
+.our-associations .heading {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  color: var(--black);
+  text-transform: capitalize;
+  padding-left: 1rem;
+  border-left: .5rem solid var(--green);
+}
+
+.associations-list {
+  list-style-type: decimal;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.associations-list li {
+  margin-bottom: 1.5rem;
+}
+
 /* Clients Section */
 .client-details {
   padding: 5rem 10%;
@@ -741,6 +767,47 @@ p::-webkit-scrollbar-thumb {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+/* Out team page table  */
+.team {
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.team h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.team table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.team table th,
+.team table td {
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.team table th {
+  background-color:var(--green);
+  color: white;
+}
+
+.team table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.team table tr:hover {
+  background-color: #ddd;
 }
 
 /* Popup container - can be anything you want */
