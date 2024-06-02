@@ -10,14 +10,14 @@ window.onscroll = () =>{
    navbar.classList.remove('active');
 }
 // Ensure dropdown content is shown on mobile when parent is clicked
-// document.querySelectorAll('.dropdown > a').forEach(link => {
-//     link.onclick = (e) => {
-//       if (window.innerWidth <= 991) {
-//         e.preventDefault();
-//         e.target.nextElementSibling.classList.toggle('active');
-//       }
-//     };
-//   });
+document.querySelectorAll('.dropdown > a').forEach(link => {
+    link.onclick = (e) => {
+      if (window.innerWidth <= 991) {
+        e.preventDefault();
+        e.target.nextElementSibling.classList.toggle('active');
+      }
+    };
+  });
 
 var swiper = new Swiper(".home-slider", {
    loop:true,
