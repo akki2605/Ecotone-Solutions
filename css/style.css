@@ -266,14 +266,14 @@ li{
   right: 7rem;
 }
 
-.heading {
+/* .heading {
   margin-bottom: 3rem;
   font-size: 3rem;
   color: var(--black);
   text-transform: capitalize;
   padding-left: 1rem;
   border-left: 1rem solid var(--green);
-}
+} */
 
 .mission{
   margin-top: 30px;
