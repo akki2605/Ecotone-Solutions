@@ -770,6 +770,54 @@ p::-webkit-scrollbar-thumb {
   background-color: #ddd;
 }
 
+/* Intro in employee  */
+.intro p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.6;
+  padding-right: 15px;
+  text-align:justify;
+}
+
+/* Employee Details page */
+
+.employees {
+  padding-top: 0;
+}
+
+.employees table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.employees th, .employees td {
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: left;
+  border : 1px solid #ddd;
+}
+
+.employees th {
+  background-color:var(--green);
+  color: var(--white);
+}
+
+.employees tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.employees tr:hover {
+  background-color: #f5f5f5;
+}
+
+.employees img {
+  width: 100px;
+  height: auto;
+}
+
+
 /* Popup container - can be anything you want */
 .popup {
   display: none; /* Hidden by default */
