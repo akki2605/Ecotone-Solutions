@@ -673,6 +673,16 @@ p::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
+.contact .row .contact-details{
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 41rem;
+          flex: 1 1 41rem;
+  background: var(--white);   
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+}
+
 .contact .row form {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 41rem;
