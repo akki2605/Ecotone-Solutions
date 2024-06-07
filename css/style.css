@@ -171,7 +171,7 @@ li{
 }
 .header .dropdown-content p{
   padding: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 
 }
 /* Show the dropdown content on hover */
@@ -991,6 +991,18 @@ p::-webkit-scrollbar-thumb {
   color: var(--light-color);
 }
 
+.footer .footer-credit a {
+  font-weight: bold;
+  color: var(--white);
+}
+.footer .footer-credit a:visited  {
+  font-weight: bold;
+  color: var(--white);
+}
+
+.footer .footer-credit a:hover{
+  color: var(--white);
+}
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
